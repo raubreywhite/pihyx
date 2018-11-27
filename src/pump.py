@@ -90,6 +90,7 @@ def main():
   
   device.set_i2c_address(103)
   print(device.query("R"))
+  print(device.query("D50"))
 
 if __name__ == '__main__':
   main()
