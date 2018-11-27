@@ -88,7 +88,7 @@ class AtlasI2C:
 def main():
   device = AtlasI2C()   # creates the I2C port object, specify the address or bus if necessary
   
-  device.set_i2c_address(99)
+  device.set_i2c_address(103)
   print(device.query("R"))
 
 if __name__ == '__main__':
